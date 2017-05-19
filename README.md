@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ReduxSimpleStarter
 
 Interested in learning [Redux](https://www.udemy.com/react-redux/)?
@@ -25,3 +26,6 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 ```
 
 **Weather App**
+=======
+# weather-app-react
+>>>>>>> 252a187790c5b751314f133ec6a1ce27f2b83ea5
