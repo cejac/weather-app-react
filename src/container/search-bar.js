@@ -14,9 +14,13 @@ constructor(props) {
     this.setState({term: event.target.value})
   }
 
+  onFormSubmit(event){
+    event.preventDefault();
+  }
+
   render() {
     return (
-      <form className='input-group'>
+      <form onSubmit={this.onFormSubmit} className='input-group'>
         <input
         placeholder='Get a 5 day forecast in your favotire cities'
         className='form-control'
